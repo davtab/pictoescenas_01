@@ -1,0 +1,125 @@
+.register-pink-button {
+  --background: #f879b8; /* Rosa */
+  --color: white; /* Texto en blanco */
+}
+
+.register-background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.register-header-login {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #f879b8; /* Fondo rosa */
+  padding: 10px;
+  border-radius: 5px;
+  color: white; /* Asegurar que el texto sea blanco */
+  font-size: 1.3em; /* Tamaño de letra grande */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.register-header-login h3 {
+  margin: 0 10px;
+  color: white; /* Texto en blanco */
+}
+
+.register-header-login a {
+  color: white !important; /* Texto en blanco */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-ion-card-content {
+  background-color: rgba(255, 255, 255, 0.685); /* Gris semitransparente */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.register-ion-input {
+  background-color: white; /* Fondo blanco */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.register-login-card {
+  background-color: transparent;
+}
+
+.register-forgot-password-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.register-forgot-password {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-half-width-button {
+  width: 48%; /* Ocupa la mitad del ancho */
+  margin-left: auto; /* Alinear a la derecha */
+}
+
+.register-hr {
+  border: 1px solid black; /* Línea horizontal negra */
+}
+
+.register-social-text {
+  color: black; /* Texto negro */
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-social-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.register-social-buttons .ion-button {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.register-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f879b8; /* Fondo rosa */
+  position: relative;
+}
+
+.register-privacy-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.register-privacy {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  flex: 1; /* Alinear a la izquierda */
+}
+
+.register-privacy-container ion-checkbox {
+  --border-radius: 50%; /* Hacer el checkbox redondo */
+  --size: 20px; /* Tamaño del checkbox */
+  --background: transparent; /* Fondo transparente */
+}
+
+body,
+html {
+  overflow: hidden; /* Deshabilitar scroll */
+}

@@ -1,0 +1,24 @@
+.background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #f879b8; /* Fondo rosa */
+  padding: 10px;
+  border-radius: 5px;
+  color: white; /* Asegurar que el texto sea blanco */
+  font-size: 1.3em; /* Tamaño de letra grande */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.upload-button {
+  color: white; /* Texto en blanco */
+  text-transform: lowercase; /* Texto en minúsculas */
+}
